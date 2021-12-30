@@ -1,0 +1,50 @@
+// Graphical variables
+* {
+  font-family: system-ui,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  // background-color: rgba(91, 156, 217, 0.6);
+  background-color: rgba(243, 238, 238, 0.479);
+  height: 100vh;
+  // font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+
+  // @import "config/colors";
+// @import "config/bootstrap_variables";
+
+// External libraries
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+// @import "bootstrap/scss/bootstrap";
+// @import "font-awesome-sprockets";
+// @import "font-awesome";
+@import '@mapbox/mapbox-gl-geocoder/dist/mapbox-gl-geocoder';
+
+// Your CSS partials
+@import "components/banner";
+@import "components/button";
+@import "components/container";
+@import "components/card";
+// @import "components/index";
+@import "components/navbar";
+// @import "components/searchbar";
+@import "components/footer";
+// @import "components/cardhome";
+// @import "components/cardcategory";
+@import "components/map";
+@import "components/contact_form";
+@import "components/welcome_card"
+// @import "pages/index";
+// @import "pages/home";
+// @import "pages/cars";
+// @import "components/notificationdashboard";

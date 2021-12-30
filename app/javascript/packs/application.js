@@ -11,3 +11,16 @@ import "channels"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+// ----------------------------------------------------
+// Note(lewagon): ABOVE IS RAILS DEFAULT CONFIGURATION
+// WRITE YOUR OWN JS STARTING FROM HERE 👇
+// ----------------------------------------------------
+
+import { initMapbox } from '../plugins/init_mapbox';
+// import { toggleNavbarVisibility } from '../channels/navbar';
+
+document.addEventListener('turbolinks:load', () => {
+  initMapbox();
+  // toggleNavbarVisibility();
+})
